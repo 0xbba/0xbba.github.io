@@ -47,10 +47,10 @@ $(document).ready(function () {
 	/**
 	 * 获取Bing壁纸
 	 * 原先 YQL 已经无法提供服务了
-	 * 改用 JsonBird：https://bird.ioliu.cn/
+	 * 改用 JsonBird：https://bing.ioliu.cn/
 	 * 
 	 */
-	var url = 'https://bird.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
+	var url = 'https://bing.ioliu.cn/v1/?url=https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=8';
 	var imgUrls = JSON.parse(sessionStorage.getItem("imgUrls"));
 	var index = sessionStorage.getItem("index");
 	var $panel = $('#panel');
